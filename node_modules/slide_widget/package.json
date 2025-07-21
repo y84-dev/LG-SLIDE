@@ -1,0 +1,13 @@
+{
+  "name": "slide_widget",
+  "version": "1.0.0",
+  "description": "A simple slide widget for lg-Shop",
+  "keywords": [
+    "LG-Shop widget"
+  ],
+  "author": "The N00b (https://evershop.io/)",
+  "license": "GNU GENERAL PUBLIC LICENSE 3.0",
+  "engines": {
+    "node": ">= 14.0.0"
+  }
+}

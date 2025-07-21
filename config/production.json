@@ -1,0 +1,70 @@
+{
+    "shop" : {
+        "currency": "DZD",
+        "language": "ar-DZ",
+        "weightUnit": "kg"
+    },   
+    "catalog": {
+        "product": {
+            "image": {
+                "thumbnail": {
+                    "width": 100,
+                    "height": 100
+                },
+                "listing": {
+                    "width": 300,
+                    "height": 300
+                },
+                "single": {
+                    "width": 500,
+                    "height": 500
+                }
+            }
+        },
+        "showOutOfStockProduct": false
+    },
+    "system": {
+        "extensions": [
+            {
+                "name": "slidewidget",
+                "resolve": "extensions/slide_widget",
+                "enabled": true,
+                "priority": 10 
+            }
+        ]
+    },
+    "themeConfig": {
+    "logo": {
+      "alt": "LG-Shop",
+      "src": "/lg_logo.svg",
+      "width": 100,
+      "height": 100
+    },
+    "headTags": {
+
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/favicon.ico"
+        }
+      ],
+      "metas": [
+        {
+          "name": "description",
+          "content": "Best LG store ever!"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        {
+          "name": "Home | LG Store",
+          "content": "LG Store"
+        }
+      ],
+      "scripts": []
+    },
+    "copyRight": "© 2025 yassine-hasnaoui-84-dev. All Rights Reserved."
+  }
+
+}

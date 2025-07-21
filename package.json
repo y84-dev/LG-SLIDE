@@ -1,0 +1,22 @@
+{
+  "name": "lg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "evershop install",
+    "build": "evershop build",
+    "start": "evershop start",
+    "start:debug": "evershop start --debug",
+    "dev": "evershop dev",
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@evershop/evershop": "^1.2.2",
+    "slide_widget": "file:extensions/slide_widget",
+    "swiper": "^11.2.10"
+  }
+}

@@ -1,0 +1,11 @@
+"""
+Return a collection products Slide Widget
+"""
+type SlideWidget {
+  collection: String
+  count: Int
+}
+
+extend type Query {
+  slideWidget(collection: String, count: Int): SlideWidget
+}
